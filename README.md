@@ -69,25 +69,22 @@ HUMAN-ACTIVITY-RECOGNITION-LSTM-CNN/
 ---
 
 ## 🧠 Working of HAR
-Add your image here:
-
-![Working of HAR](Images/HAR_diag.png)
+<img width="890" height="238" alt="image" src="https://github.com/user-attachments/assets/5941de95-7371-4aa5-8d22-9c0d8103bcc3" />
 
 ---
+<img width="1100" height="854" alt="image" src="https://github.com/user-attachments/assets/941c50a9-f3b1-4dd9-87ec-bae647d591ce" />
 
 ## 📊 Visualization of Accelerometer Data
 Add the plot of accelerometer data (X, Y, Z axes):
+<img width="907" height="865" alt="image" src="https://github.com/user-attachments/assets/ef4819de-3225-4d5d-86b7-bb913cebf7b3" />
 
-![Accelerometer Visualization](Images/accel_visualization.png)
-
-(Replace `accel_visualization.png` with your actual file name.)
 
 ---
 
 ## 🧠 Model Architecture
-Insert your model architecture diagram here:
 
-![Model Architecture](Images/Model Arch.png)
+<img width="824" height="166" alt="image" src="https://github.com/user-attachments/assets/090bd676-3ec7-44fc-b823-0605dfc62aa2" />
+
 
 ---
 ### **1️⃣ CNN Block**
@@ -149,24 +146,18 @@ Generates:
 ## 📊 Results
 
 ### 🔹 Model Accuracy & Loss
-Add your training accuracy/loss plot here:
+After Training our model gives an accuracy of 98.02% and a loss of 0.58%. The F1 score of training comes out to be 0.96.
+<img width="391" height="273" alt="image" src="https://github.com/user-attachments/assets/f939a4a6-d2b3-49d7-9a81-e048fa3120fc" />
+=
+Now after evaluation of our test data set we get an accuracy of 89.14% and a loss of 46.47%. The F1 score of testing comes out to be 0.89.
+<img width="777" height="380" alt="image" src="https://github.com/user-attachments/assets/b55b864c-6538-46a9-b0c1-895411bdd879" />
 
-![Accuracy and Loss](Images/accuracy_loss.png)
 
 ---
 
 ### 🔹 Confusion Matrix
 Add confusion matrix image:
-
-![Confusion Matrix](Images/confusion_matrix.png)
-
---- (Example)
-- Training Accuracy: ~95%
-- Testing Accuracy: ~92%
-- Confusion Matrix indicates strong class separation.
-
-*(Add your project-specific results here.)*
-
+<img width="321" height="270" alt="image" src="https://github.com/user-attachments/assets/fb7ad178-e924-4aab-8627-cd3978e8b139" />
 ---
 
 ## 🔍 Key Features
@@ -208,12 +199,3 @@ Here are some relevant references and resources for this project:
 - Scikit-learn: https://scikit-learn.org/stable/
 - SciPy: https://scipy.org
 
-### Example Implementations / Blogs
-- Medium article inspiration: (Add your link here if needed)
-- HAR using deep learning examples: https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition
-- CNN-LSTM sequence modeling examples: https://keras.io/examples/timeseries/timeseries_classification_from_scratch/
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
